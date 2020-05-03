@@ -13,8 +13,11 @@ libapt-pkg 5.0 (package managment runtime library).
 So, there is working solution. 
 
 a) Open Synaptic package manager.
+
 b) Select "apt" and "libapt-pkg 5.0" packages and reinstall them.
+
 c) From the command line run "apt clean" or "apt-get clean"
+
 d) Close Synaptic package manager. If you leave Synaptic open it can block "apt". You can use only one package manager at the same time. 
 Check if "apt" is working now. 
 
